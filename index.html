@@ -5,61 +5,182 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FrigoCR | Reparación de Refrigeradoras</title>
 
-<link rel="stylesheet" href="style.css">
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#222;
+}
+
+header{
+background:#0a5abf;
+color:white;
+padding:50px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:22px;
+margin-bottom:25px;
+}
+
+.boton{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:10px;
+font-size:20px;
+font-weight:bold;
+}
+
+section{
+max-width:1100px;
+margin:auto;
+padding:50px 20px;
+}
+
+h2{
+color:#0a5abf;
+margin-bottom:20px;
+text-align:center;
+}
+
+.servicios{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.tarjeta{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+footer{
+background:#0a5abf;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+img{
+width:100%;
+border-radius:10px;
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
+</style>
 
 </head>
 
 <body>
 
-<header class="hero">
+<header>
 
-<h1>FRIGO<span>CR</span></h1>
+<h1>FRIGOCR</h1>
 
-<p>Especialistas en reparación de refrigeradoras.</p>
+<p>Reparación de Refrigeradoras y Congeladores</p>
 
-<a href="https://wa.me/50671657763" class="boton">
-WhatsApp 7165-7763
+<a class="boton" href="https://wa.me/50671657763">
+Escríbenos por WhatsApp
 </a>
-
-</header>
-
-<section class="servicios">
+  <section>
 
 <h2>Nuestros Servicios</h2>
 
-<div class="grid">
+<div class="servicios">
 
-<div class="card">
-<h3>Refrigeradoras</h3>
-<p>Reparación de todas las marcas.</p>
+<div class="tarjeta">
+<h3>❄️ Refrigeradoras</h3>
+<p>Diagnóstico y reparación.</p>
 </div>
 
-<div class="card">
-<h3>Congeladores</h3>
-<p>Mantenimiento y reparación.</p>
+<div class="tarjeta">
+<h3>🧊 Congeladores</h3>
+<p>Reparación y mantenimiento.</p>
 </div>
 
-<div class="card">
-<h3>Cuartos Fríos</h3>
-<p>Servicio profesional.</p>
+<div class="tarjeta">
+<h3>🏪 Cuartos Fríos</h3>
+<p>Servicio para comercios y empresas.</p>
 </div>
 
-<div class="card">
-<h3>Garantía</h3>
-<p>Todos nuestros trabajos tienen garantía.</p>
+<div class="tarjeta">
+<h3>🛠️ Mantenimiento</h3>
+<p>Limpieza y revisión preventiva.</p>
 </div>
 
 </div>
 
 </section>
 
+<section>
+
+<h2>Trabajos Realizados</h2>
+
+<p style="text-align:center;margin-bottom:20px;">
+Próximamente aquí verás fotos reales de nuestros trabajos.
+</p>
+
+<div class="galeria">
+
+<img src="https://placehold.co/600x400?text=Trabajo+1">
+
+<img src="https://placehold.co/600x400?text=Trabajo+2">
+
+<img src="https://placehold.co/600x400?text=Trabajo+3">
+
+<img src="https://placehold.co/600x400?text=Trabajo+4">
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Cobertura</h2>
+
+<p style="text-align:center;font-size:20px;">
+📍 San José • Heredia • Cartago • Alajuela
+</p>
+
+</section>
+
 <footer>
 
-<p>© 2026 FrigoCR</p>
+<h2>FRIGOCR</h2>
+
+<p>📞 Teléfono: 7165-7763</p>
+
+<p>Servicio profesional en refrigeración.</p>
 
 </footer>
 
-<script src="script.js"></script>
-
 </body>
+
 </html>
+
+</header>
